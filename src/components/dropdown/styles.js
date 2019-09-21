@@ -16,6 +16,7 @@ export default StyleSheet.create({
     }, {
       rotate: '45deg',
     }],
+  borderWidth: 1
   },
 
   triangleContainer: {
