@@ -551,7 +551,7 @@ export default class Dropdown extends PureComponent {
 
   renderAccessory() {
     let { baseColor: backgroundColor } = this.props;
-    let triangleStyle = { backgroundColor };
+    let triangleStyle = {borderColor: backgroundColor };
 
     return (
       <View style={styles.accessory}>
